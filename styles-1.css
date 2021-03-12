@@ -6,28 +6,33 @@
     font-family: 'Akaya Telivigala', cursive;
     margin: 0;
 }
-body{
-
-}
 html{
     background-color: var(--main-page-color);
 }
 .top-menu{
     background-color: var(--secondary-page-color);
+   display: flex;
+   flex-direction: row;
+}
+.top-menu__div-img{
+    display: block;
 }
 .top-menu ul{
     list-style: none;
     padding: 0;
+    text-align: right;
+    margin-left: auto;
 }
 .top-menu li{
     display: inline-block;
-    /* padding: 1em; */
     transition: background-color 0.2s;
+    align-items: center;
 }
 .top-menu a{
     text-decoration: none;
     color: var(--main-page-color);
     padding: 1em;
+    display: block;
 }
 .top-menu li:hover{
     background-color: rgb(200, 200, 200);
