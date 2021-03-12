@@ -1,3 +1,35 @@
+:root{
+    --main-page-color: rgb(0, 0, 0);
+    --secondary-page-color: white;
+}
+* {
+    font-family: 'Akaya Telivigala', cursive;
+    margin: 0;
+}
+body{
+
+}
 html{
-    background-color: rgb(63, 240, 240);
+    background-color: var(--main-page-color);
+}
+.top-menu{
+    background-color: var(--secondary-page-color);
+}
+.top-menu ul{
+    list-style: none;
+    padding: 0;
+}
+.top-menu li{
+    display: inline-block;
+    /* padding: 1em; */
+    transition: background-color 0.2s;
+}
+.top-menu a{
+    text-decoration: none;
+    color: var(--main-page-color);
+    padding: 1em;
+}
+.top-menu li:hover{
+    background-color: rgb(200, 200, 200);
+    cursor: pointer;
 }
