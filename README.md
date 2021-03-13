@@ -1,3 +1,14 @@
+Versión 0.5:
+
+HTML:
+Se crea una sección para insertar cosas con labels y legends
+
+CSS:
+Se arreglan los iconos de favicon, se acomodan las cajas
+
+JS:
+...
+
 Versión 0.3:
 
 HTML:
